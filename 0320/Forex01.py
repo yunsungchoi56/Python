@@ -1,10 +1,2 @@
-sum = 0
-
-for i in range(1,11):
-    sum+= i # sum = sum + i
-    if i < 10:
-        print(i, end=" +")
-    else:
-        print(i,end=" = ")
-
-print(sum)
+for i in [1,5,3,2,4]:
+    print("방문을 환영합니다", i)
